@@ -7,7 +7,7 @@ print(pygame.font.get_fonts())
 
 textFont = pygame.font.SysFont("comicsansms", 25)
 
-nam = 'Link'
+nam = 'Zelda'
 pe = 'Spyro'
 ver = 'ate'
 snac = 'doughnuts'
