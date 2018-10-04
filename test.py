@@ -7,10 +7,10 @@ print(pygame.font.get_fonts())
 
 textFont = pygame.font.SysFont("comicsansms", 25)
 
-nam = 'Zelda'
-pe = 'Spyro'
-ver = 'ate'
-snac = 'doughnuts'
+nam = 'Tyrone'
+pe = 'Konrad'
+ver = 'smashed'
+snac = 'pickles'
 
 def madlib(name, pet, verb, snack):
     return ['Once upon a time,' + name + ' walked',
@@ -18,7 +18,7 @@ def madlib(name, pet, verb, snack):
     'Suddenly, ' + pet + ' announced,',
     'I really want some ' + snack + '! ',
     name + ' complained. Where am I going to get that? ',
-    'Then ' + name + "found a wizard's wand. ",
+    'Then ' + name + " found a wizard's wand. ",
     'With a wave of the wand, ',
     pet + ' got ' + snack + '. ',
     'Perhaps surprisingly, ' + pet + ' ' + verb + ' ' + snack]
